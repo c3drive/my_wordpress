@@ -1,0 +1,157 @@
+/*
+Theme Name: Responsive Blogger
+Theme URI: https://www.ovationthemes.com/wordpress/free-blogger-wordpress-theme/ 
+Author: pewilliams
+Author URI: https://www.ovationthemes.com/
+Description: Responsive Blogger is a wonderful theme designed for startups and medium-sized companies, creative agencies, digital agencies, corporate houses and other creative websites such as construction, travel, restaurant, Investments, Technology Consulting, photography, seo blogs, knowledge blogs, faqs, suport forums, spa, Advisors, Investment Experts, Trading, gym, commercial, health, construction, DIY Crafts, Feminine Blog, corporate Blogs, architecture, magazine, feminine blog, stylist blog, gaming review, video blog art, design, health, portfolio, product showcase, organizations, e-commerce and other types of websites. You can create an absolutely stunning blog with no coding skills required. The design of this theme is minimal, elegant and retina-ready which will hook the visitors to your blog website. It is a SEO-friendly as well as user-friendly theme offering infinite options for customization. It has a responsive layout making it mobile-friendly, so anyone can view your website from any device. Implementation on bootstrap framework makes it stand out from the crowd. It has optimized codes and also faster page load times. You also have the option to add shortcodes and link your social media pages.
+Version: 0.2.5
+Requires PHP: 7.2
+Tested up to: 5.8
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: responsive-blogger
+Template: ovation-blog
+Tags: one-column, two-columns, right-sidebar, left-sidebar, grid-layout, full-width-template, sticky-post, block-styles, custom-colors, custom-background, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, threaded-comments, wide-blocks, blog, portfolio, photography
+
+Responsive Blogger WordPress Theme, Copyright 2021 pewilliams
+Responsive Blogger is distributed under the terms of the GNU GPL
+
+Responsive Blogger WordPress Theme is child theme of Ovation Blog WordPress Theme, Copyright 2021 pewilliams
+Ovation Blog WordPress Theme is distributed under the terms of the GNU GPL
+*/
+
+/* Color Changes*/
+
+body {
+    color: #6a5e5e;
+}
+.wrap_figure,#our-post .box-content{
+   background: #fbefef;
+}
+.logo h1 a,.links i,h1, h2, h3, h4, h5, h6,#Category-section h3 a,#sidebar h3,#horizontal-slider h3 a {
+    color: #1f0505;
+}
+.copyright,.gb_nav_menu ul ul,.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+    background: #1f0505;
+}
+a,.gb_nav_menu ul li a:active, .gb_nav_menu ul li a:hover,#Category-section .postbox.smallpostimage:hover h3 a,#sidebar select,#sidebar th,#sidebar td,#sidebar caption,.site-footer .widget-area a:hover,a.showcoupon, .woocommerce-message::before{
+    color: #d56060;
+}
+a.more-link,.page-numbers:hover,.page-numbers.current,.prev.page-numbers, .next.page-numbers,.site-footer .search-form .search-submit,#sidebar .tagcloud a:hover, .site-footer .tagcloud a:hover,button.search-submit,.gb_nav_menu ul ul a:hover,.woocommerce span.onsale,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt,.woocommerce input.button.alt,.load :last-child,.load :nth-child(3),.load :nth-child(2),.load :first-child,#slider .carousel-control-next-icon:hover, #slider .carousel-control-prev-icon:hover,#our-post::-webkit-scrollbar-thumb{
+    background: #d56060;
+}
+#Category-section .postbox.smallpostimage,.sticky{
+    border-color: #ffd1d1;
+}
+.search-box button.search-submit {
+    background: url(assets/images/search.png) no-repeat scroll #d56060 10px;
+}
+.site-info{
+    background: #0c0202;
+}
+.tagcloud a:hover {
+    color: #fff !important;
+}
+nav.woocommerce-MyAccount-navigation ul li{
+    background: #d56060 !important;
+}
+
+/* Home Page */
+
+#our-post .box-content{
+    margin: 0;
+    margin-bottom: 20px;
+}
+#horizontal-slider .inner_carousel {
+    background: #fbefef;
+}
+#horizontal-slider h3 {
+    font-size: 35px;
+}
+#horizontal-slider .link-more{
+    text-align: right;
+}
+#horizontal-slider .link-more a {
+    background: transparent;
+    border: solid 1px;
+    color: #d56060;
+    border-radius: 0;
+}
+#horizontal-slider span.carousel-control-prev-icon i, #horizontal-slider span.carousel-control-next-icon i  {
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    color: #d56060;
+    border-radius: 50%;
+}
+#horizontal-slider .carousel-control-prev-icon, #horizontal-slider .carousel-control-next-icon{
+    background-image: none;
+}
+#horizontal-slider .carousel-control-prev, #horizontal-slider .carousel-control-next{
+    width: 5%;
+}
+
+@media screen and (max-width: 720px) and (min-width: 320px){
+    #horizontal-slider .carousel-control-prev, #horizontal-slider .carousel-control-next{
+        width: 20%;
+    }
+    #horizontal-slider .link-more{
+        text-align: center;
+    }
+    .order2{
+        order: 1;
+    }
+    .order1{
+        order: 2;
+    }
+    #horizontal-slider h3{
+        font-size: 25px;
+    }
+}
+
+/* Accessibility */
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
+}
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+    border: 1px solid #323232;
+    padding: 2px;
+}
