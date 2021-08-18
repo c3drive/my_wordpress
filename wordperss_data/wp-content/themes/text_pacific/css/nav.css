@@ -26,20 +26,20 @@
 	display: none;
 }
 
-#global-nav #menu-item-home {
+#global-nav #menu-item-77 {
 	background-image: url(../images/nav/menu_home.png);
 	width: 194px;
 }
-#global-nav #menu-item-about {
+#global-nav #menu-item-79 {
 	background-image: url(../images/nav/menu_about.png);
 }
-#global-nav #menu-item-mall {
+#global-nav #menu-item-83 {
 	background-image: url(../images/nav/menu_mall.png);
 }
-#global-nav #menu-item-column {
+#global-nav #menu-item-76 {
 	background-image: url(../images/nav/menu_column.png);
 }
-#global-nav #menu-item-inquiry {
+#global-nav #menu-item-85 {
 	background-image: url(../images/nav/menu_inquiry.png);
 	width: 194px;
 }
