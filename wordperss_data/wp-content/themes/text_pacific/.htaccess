@@ -1,4 +1,0 @@
-<IfModule mod_rewrite.d>
-RewriteCond %{ERQUEST_URI} !¥.(gif|css|js|swf|jpeg|jpg|jpe|png|ico|swd|pdf)$
-}
-</IfModule>
